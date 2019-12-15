@@ -1,0 +1,183 @@
+<html>
+<head>
+  <!--
+• Name: Amila Bahor
+Course: Web application development
+Assignment: Homework1
+Due Date: 27 October 2019
+Purpose: The purpose of this homework is to gain a better understanding of basic HTML
+-->
+<title>Amila Bahor</title>
+    <link rel="stylesheet" href="cv.css"> 
+ <link  href="image.jpg">
+ <div class="navigationbar">
+        <a href="#about">About</a>
+        <a href="#education">CV</a>
+        <a href="#contact">Contact</a>
+        <a href="https://amilabahor.github.io/Amila-Bahor-CV-html/" target="_blank">CV 1st progress</a>
+
+        <div class="login">
+            <form action="someAction">
+                <input type="text" placeholder="Username" name="username">
+                <input type="text" placeholder="Password" name="password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+      </div>
+      <script src="myScript.js"></script>
+</head>
+
+<body >
+    <button class="open-button" onclick="openForm()">Chat with me</button>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Hello :) </h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send message</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close chat box</button>
+  </form>
+</div>
+<div class="bgphoto" id="about">
+        <div class="about" style="top: 100px;" >
+            <h1 style=" position: relative; top: -20px;">About me:</h1>
+            <p style="background-color: pink;"> My name is Amila Bahor. I live in Sarajevo and I study Computer Science and Engineering  on IUS. <br> 
+             You can <button><a href="mailto:bahor_amila@hotmail.com">send me an e-mail.</a></button> <br><br>
+             <label>Rate my CV page: <br>
+              
+              Boring
+              <input type="range" min="0" max="10" step="1" name="rate"> Interesting
+             </label>
+            <br><br>
+            <label>I like flowers, so feel free to upload some cute flower photo: </label> <br>
+            <input type="file" name="photo">
+            <br> <br>
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click here to display Date and Time.</button>
+            <p id="demo"></p>
+            </p>
+        </div>
+        <img src="https://qph.fs.quoracdn.net/main-raw-68871915-bzqdxizcpkgbkvjprlufslxswbywxepe.jpeg" alt="amilabahor" style="position: relative; left: 0%; top: -300px; height: 600px; width: 640">
+    </div>
+<div id="javascript" style="position:relative; color:white; background-color: pink;">
+    <h1>Riddles</h1>
+        <table style="width:100%;" >
+            <tr>
+                <th> The more you take, the more you leave behind.<br> What am I? </th>
+                <th>What room do ghosts avoid?</th>
+                <th>What has many keys, but can't even open a single door?</th>
+            </tr>
+            <tr>
+                <th><p id="rd1">Can you guess?</p><button style="background-color: salmon;" type="button" onclick="myFunction()">Show the answer!</button></th>
+                <th><p id="rd2">Can you guess?</p><button style="background-color: salmon;" type="button1" onclick="myFunction1()">Show the answer!</button></th>
+                <th><p id="rd3">Can you guess?</p><button style="background-color: salmon;" type="button2" onclick="myFunction2()">Show the answer!</button></th>
+            </tr>
+        </table>
+</div>
+
+<div id="education" style="position:relative; color:white; background-color: olivedrab;">
+    <h1 style= "color: white;">Education</h1>
+    <ul>
+    <li><b>UNIVERSITY:</b>
+      Faculty of Engineering and Natural Sciences, Computer Science and Engineering, 
+    International Unversity of Sarajevo, 71210 Ilidža.</li>
+    <li><b>HIGH SCHOOL:</b>
+    Medresa “Behram-begova medresa”, 75000 Tuzla, (Achievement: Excellent).</li>
+    <li><b>PRIMARY SCHOOL:</b>
+    OŠ Grčica, 76120 Brčko (Achievement: Excellent).</li>
+    </ul> <hr>
+</div>
+<div  id="languages" style="position:relative; color:white; background-color: olivedrab;">
+  <h1 style="font-size:20pt;background-color:olivedrab;">LANGUAGES:</h1>
+      <table style="width:100%;" >
+    <tr>
+        <th>Language</th>
+        <th>Writing (1-5)</th>
+        <th>Reading (1-5)</th>
+        <th>Speaking (1-5)</th>
+        <th>Understanding (1-5)</th>
+        </tr>
+    <tr>
+        <td>Bosnian</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Arabic</td>
+        <td>5</td>
+        <td>5</td>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Turkish</td>
+        <td>5</td>
+        <td>5</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <hr>
+</div>
+
+<div id="experience" style="position:relative; color:white; background-color: olivedrab;">
+    <h1 style="font-size:20pt;background-color:olivedrab;">PROFESSIONAL AND TECHNICAL EXPERIENCE:</h1>
+
+    <ol>
+    <li>C++</li>
+    <li>C#</li>
+    <li>Java</li>
+    </ol>
+    <hr>
+</div>
+
+<div id="abilities" style="position:relative;color:white; background-color: olivedrab;">
+    <h1 style="font-size:20pt;background-color:olivedrab;">ABILITIES:</h1>
+    <table style="width:100%; position: relative;">
+    <tr >
+        <th>Ability</th>
+        <th>Skill level</th>
+    </tr>
+    <tr>
+        <td>MS Word</td>
+        <td>Excellent</td>
+    </tr>
+    <tr>
+        <td>MS Excel</td>
+        <td>Excellent</td>
+    </tr>
+    <tr>
+        <td>Power point</td>
+        <td>Excellent</td>
+    </tr>
+    </table>
+</div>
+
+<div id="contact" class="bgphoto" style="position:relative;">
+        <h1>Contact Me: </h1>
+        <div class="contact">
+            <form action="sendMessage">
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="firstname" placeholder="First name"  size=“20” maxlength=“30” >
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Last name"  size=“20” maxlength=“30” >
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" cols="50" maxlength="600" rows="10" placeholder="Please type your message here:" style="height: 150px"></textarea>
+                <input type="submit" value="Send message">
+            </form>
+        </div>
+</div>
+</body>
+</html>
