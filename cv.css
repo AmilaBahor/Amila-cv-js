@@ -1,0 +1,184 @@
+.navigationbar a {
+    float: left;
+    text-align: center;
+    display: inline;
+    color: black;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navigationbar .login {
+    float: right;
+}
+
+.navigationbar input[type=text] {
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    width: 130px; 
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+
+th {
+  background-color: pink;
+  color: black;
+  height: 50px;
+}
+tr {
+  height: 35px;
+}
+tr:hover {background-color:salmon;}
+.navigationbar .login button {
+    float: right;
+    padding: 7px;
+    margin-top: 10px;
+    margin-right: 18px;
+    background:salmon ;
+    font-size: 18px;
+    border: 2pt;
+    border-color: black;
+    cursor: default;
+}
+
+.navigationbar .login button:hover {
+    background: pink;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bgphoto {
+    background-image: url("about.jpg");
+    
+}
+
+.about {
+    position: relative;
+    left: 50%;
+    top: 200px;
+    max-width: 600px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 60px;
+    word-spacing: 4px;
+    margin: 0;
+    padding: 20px;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid black;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: salmon;
+    color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.contact {
+    border-radius: 6px;
+    background-color: olivedrab;
+    padding: 15px;
+}
+
+
+* {box-sizing: border-box;}
+
+.open-button {
+  background-color: salmon;
+  color: white;
+  padding: 15px 19px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 24px;
+  right: 27px;
+  width: 285px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: pink;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: lightblue;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: pink;
+  color: black;
+  padding: 15px 19px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:11px;
+  opacity: 0.9;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
